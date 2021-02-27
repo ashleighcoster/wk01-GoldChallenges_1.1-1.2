@@ -16,7 +16,7 @@ for (let i = 0; i <= 10; i++){
 
 //2. Callback function: 
 function callback(){ 
-    for (i = 0; i <= 10; i++){
+    for (let i = 0; i <= 10; i++){
         console.log(i);
     }
 }
@@ -25,7 +25,7 @@ callback();
 
 //3. Callback function plus a conditional: 
 function callback(){
-    for (i = 0; i <= 10; i++){
+    for (let i = 0; i <= 10; i++){
         if (i % 2 == 0){
             console.log('This number is even.');
         } else {

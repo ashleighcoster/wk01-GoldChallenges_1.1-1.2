@@ -11,15 +11,16 @@
 let favoriteMovie = {
     nameOfMovie: 'Love and Basketball',
     runTime: "2hr 5m",
+    genre: 'Romantic Sports Drama',
     characters: [
-       {characterOne: 'Sanaa Lathan', 
+       {name: 'Sanaa Lathan', 
        age: 49, items: [
            {herFirstMovie: 'Drive', 
            herLastMovie: 'Native Son'},
            {awardsWon: 7, 
             from: 'NYC'}]
         },
-       {characterTwo: 'Omar Epps', 
+       {name: 'Omar Epps', 
        age: 47, items: [
            {hisFirstMovie: 'Juice', 
            hisLastMovie: 'Fatal Affair'}, 
@@ -32,7 +33,7 @@ let favoriteMovie = {
 console.log(favoriteMovie.nameOfMovie);
 console.log(favoriteMovie.runTime);
 console.log(favoriteMovie.characters);
-console.log(favoriteMovie.characters[0].characterOne);
+console.log(favoriteMovie.characters[0].name);
 console.log(favoriteMovie.characters[1].items[0].hisFirstMovie);
 
 
