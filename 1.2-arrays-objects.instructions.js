@@ -17,13 +17,15 @@ let favoriteMovie = {
            {herFirstMovie: 'Drive', 
            herLastMovie: 'Native Son'},
            {awardsWon: 7, 
-            from: 'NYC'}]},
+            from: 'NYC'}]
+        },
        {characterTwo: 'Omar Epps', 
        age: 47, items: [
            {hisFirstMovie: 'Juice', 
            hisLastMovie: 'Fatal Affair'}, 
            {awardsWon: 5, 
-            from: 'Brooklyn, NY'}]} 
+            from: 'Brooklyn, NY'}]
+        } 
     ]
 }
 
